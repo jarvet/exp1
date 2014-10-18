@@ -147,15 +147,16 @@ float Calculate()
 int main()
 {
     //输入中缀表达式，在两端加括号，此时所有负号前均为(，而减号前不可能为(，以此区分
+    printf("请输入中缀表达式：");
     infix[0]='(';
     scanf("%s",infix+1);
     sprintf(infix+strlen(infix),")");
 
     InfixToPostfix();
 
-    printf("%s\n",postfix);
+    printf("后缀表达式为；%s\n",postfix);
     float ans = Calculate();
+    printf("运算结果为：%.2f\n",ans);
 
-    printf("%.2f",ans);
     return 0;
 }

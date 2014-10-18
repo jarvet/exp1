@@ -12,3 +12,11 @@
 	<stdio.h>
 	<string.h>
 
+1413393204 source:f:\数据结构\exp1\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"MyStack.h"
+
+1413393204 f:\数据结构\exp1\mystack.h
+	<string.h>
+
